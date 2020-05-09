@@ -2,7 +2,7 @@ let friends = ['Sydni', 'Hafeeza', 'Charles', 'Josh', 'Ana'];
 
 for (let i = 0; i < friends.length; i++) {
   const name = friends[i];
-  console.log(name);
+  console.log(`${name.toUpperCase()}:`);
 
   function linesOfCodeSong(
     count = 99,
