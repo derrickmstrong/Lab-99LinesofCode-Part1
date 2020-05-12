@@ -11,7 +11,7 @@ for (let i = 0; i < friends.length; i++) {
     prechorus = 'strikes one out, clears it all out',
     chorus = 'code in the file'
   ) {
-    for (let i = count; i > 0; i--) {
+    for (let j = count; j > 0; j--) {
       if (count === 2) {
         console.log(
           `${count} ${refrain}s of ${chorus}, ${count} ${refrain}s of ${refrain2}; ${friend} ${prechorus}, ${
@@ -34,5 +34,5 @@ for (let i = 0; i < friends.length; i++) {
     }
   }
 
-  linesOfCodeSong();
+  linesOfCodeSong(3);
 }
