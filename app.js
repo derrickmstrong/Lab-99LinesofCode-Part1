@@ -1,4 +1,4 @@
-let friends = ['Sydni', 'Hafeeza', 'Charles', 'Josh', 'Ana'];
+let friends = ['Sydni', 'Hafeeza', 'Jason', 'Josh', 'Ana'];
 
 for (let i = 0; i < friends.length; i++) {
   const friend = friends[i];
@@ -21,7 +21,7 @@ for (let i = 0; i < friends.length; i++) {
         count--;
       } else if (count === 1) {
         console.log(
-          `${count} ${refrain} of ${chorus}, ${count} ${refrain} of ${refrain2}; ${friend} ${prechorus}, no more ${refrain}s of ${chorus} \n`
+          `${count} ${refrain} of ${chorus}, ${count} ${refrain} of ${refrain2}; ${friend} ${prechorus}, no more ${refrain}s of ${chorus}`
         );
       } else {
         console.log(
